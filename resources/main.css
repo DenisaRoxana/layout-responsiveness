@@ -90,6 +90,7 @@ main{
     font-size: 32px;
     color: #f4dfc4;
     word-spacing: 20px;
+    padding-top: 10%;
 }
 
 .white-wrapper div:last-child i{
@@ -116,8 +117,7 @@ main{
 .black-wrapper div{
     font-size: 32px;
     font-weight: bold;
-    padding: 10px 0;
-    padding-top: 60px;
+    padding-top: 5%;
 }
 
 .main-photo-wrapper{
@@ -137,19 +137,17 @@ footer{
     padding: -10px 10px 10px 70px;
     color: white;
     background-color: #f4dfc4;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .nude-wrapper div:first-child{
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
-    padding-left: 80px;
-    padding-top: 30px;
+    padding-left: 15%;
 }
 
 .nude-wrapper div:nth-child(2){
-    padding-left: 80px;
-    padding-top: 30px;
+    padding-left: 15%;
 }
 
 
@@ -169,12 +167,12 @@ footer{
 button{
     border: 1px solid white;
     background-color: #f4dfc4;
-    width: 100px;
-    height: 50px;
+    width: 80px;
+    height: 30px;
     color: white;
     font-weight: solid;
-    font-size: 32px;
-    margin-left: 80px;
+    font-size: 22px;
+    margin-left: 15%;
     margin-top: 20px;
 }
 
