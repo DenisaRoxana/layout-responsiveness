@@ -1,0 +1,287 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 10px;
+    font-family: 'EB Garamond', serif;
+}
+
+.page-wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+header{
+    height: 10%;
+    display: flex;
+}
+
+.title {
+    height: 100%;
+    width: 30%;
+    font-size: 32px;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 8%;
+    font-weight: 900;
+}
+
+.menu-desktop{
+    display: flex;
+    color: #a0a0a0;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 30px;
+    height: 100%;
+    width: 70%;
+    margin-bottom: 8%;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: Garamond;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+main{
+    height: 65%;
+    display: flex;
+}
+
+.text-wrapper{
+    width: 35%;
+    border-top: solid 1px #a0a0a0;
+}
+
+.white-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+.white-wrapper div:first-child{
+    font-size: 90px;
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+.white-wrapper div:nth-child(2){
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.white-wrapper div:nth-child(3){
+    font-size: 20px;
+    width: 80%;
+    padding-top: 10px;
+    text-align: justify;
+
+}
+
+.white-wrapper div:last-child{
+    font-size: 32px;
+    color: #f4dfc4;
+    word-spacing: 20px;
+}
+
+.white-wrapper div:last-child i{
+    border: 1px solid #f4dfc4;
+    width: 38px;
+    height: 40px;
+    padding-left: 20px;
+    padding-top: 4px;
+    font-size: 40px;
+}
+
+.black-wrapper{
+    position: absolute;
+    height: 35%;
+    width: 27%;
+    color: white;
+    background-color: black;
+    font-size: 17px;
+    bottom: 0;
+    left: 32%;
+    padding: 5px 15px;
+}
+
+.black-wrapper div{
+    font-size: 32px;
+    font-weight: bold;
+    padding: 10px 0;
+    padding-top: 60px;
+}
+
+.main-photo-wrapper{
+    background-image: url(../assets/bg.jpg);
+    background-size: cover;
+    width: 65%;
+}
+
+footer{
+    height: 25%;
+}
+
+.nude-wrapper{
+    float: right;
+    width: 43%;
+    height: 100%;
+    padding: -10px 10px 10px 70px;
+    color: white;
+    background-color: #f4dfc4;
+    font-size: 20px;
+}
+
+.nude-wrapper div:first-child{
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+.nude-wrapper div:nth-child(2){
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+
+.menu-mobile{
+    display: none;
+    color: #fff;
+    padding: 15px;
+    justify-content: center;
+    text-align: end;
+}
+
+.menu-mobile i{
+    font-size: 40px;
+    color: #a0a0a0;
+}
+
+button{
+    border: 1px solid white;
+    background-color: #f4dfc4;
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-weight: solid;
+    font-size: 32px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+
+    .title{
+        font-size: 25px;
+        width: 80%;
+        padding-left: 10px;
+
+    }
+
+    main {
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 60%;
+    }
+
+    .main-photo-wrapper{
+        width: 100%;
+        height: 50%;
+    }
+
+    .text-wrapper{
+        width: 100%;
+        height: 45%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10%;
+        height: 10%;
+        font-size: 32px;
+        color: #a0a0a0;
+        padding-top: 40px;
+    }
+
+    .white-wrapper{
+        width: 50%;
+        padding: 10px;
+        justify-content: space-around;
+    }
+
+    .aaside-buttons-wrapper{
+        display: none;
+    }
+
+    .menu-desktop{
+        display: none;
+    }
+
+    .white-wrapper div:first-child{
+        padding: 0;
+        font-size: 35px;
+    }
+
+    .white-wrapper div:nth-child(2){
+        font-size: 20px;
+    }
+
+    .white-wrapper div:nth-child(3){
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .black-wrapper{
+        position: relative;
+        width: 50%;
+        height: 100%;
+        font-size: 13px;
+        padding: 10px;
+        left: 0;
+    }
+
+    .black-wrapper div{
+        font-size: 20px;
+        padding-top: 15px;
+    }
+  
+    .footer{
+        width: 100%;
+    }
+
+    .nude-wrapper{
+        width: 100%;
+        height: 120%;
+        margin-top: 17px;
+    }
+
+    .nude-wrapper div:first-child{
+        padding-left: 5%;
+    }
+
+    .nude-wrapper div:nth-child(2){
+        padding-left: 5%;
+    }
+
+    button{
+        margin-left: 5%;
+    }
+
+}
+
+@media (max-width: 650px){
+
+}
