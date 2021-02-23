@@ -9,10 +9,13 @@
         <link href="libraries/font-awesome/css/all.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="resources/main.css">
+        
     </head>
     <body>
-        <div class="page-wrapper">
+        <div id="pageWrapper" class="page-wrapper">
             <header>
                 <div class="title">
                     <div>Best Escapes</div>
@@ -25,8 +28,32 @@
                 </nav>
                  
                 <nav class="menu-mobile">
-                    <a><i class="fas fa-bars"></i></a>
+                    <a><i id="menuMobile" class="fas fa-bars"></i></a>
                 </nav> 
+
+                <section id="sectionView" class="hidden">
+                    <div class="section-header">
+                        <div class="section-title">Best Escapes</div>
+                        <i id="exitIcon" class="fas fa-times"></i>
+                    </div>
+                    <nav class="section-menu">
+                        <a>Home</a>
+                        <a>Specials</a>
+                        <a>Last minute</a>
+                        <a>Register/Login</a>
+                    </nav>
+                    <div class="section-footer">
+                        <div class="apps-icon">
+                            <i class="fab fa-instagram-square"></i>
+                        </div>
+                        <div class="apps-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                    </div>
+                </section>
+
+                <script src="resources/main.js"></script>
+
             </header>
             <main>
                 <div class="text-wrapper">
