@@ -31,6 +31,8 @@
                     <a><i id="menuMobile" class="fas fa-bars"></i></a>
                 </nav> 
 
+                <!-- aceasta sectiune o vrei ca si sibling node cu page-wrapper ce ai pe randul 18, sunt 2 layere paralele, una pestye cealalta si in orice moment vedem doar una in functie de actiunea user-ului -->
+                <!-- apoi as dori sa lucrezi cu pozitionare fixed pentru acest meniu pentru ca e corect sa se raporteze si sa acopere intreg viewport-ul aka browser-ul. de altfel iti sugerez sa lucrezi si cu z-index, acest meniu ar trebui sa aibe mereu un z-index mai mare decat cel adaugat pe page-wrapper -->
                 <section id="sectionView" class="hidden">
                     <div class="section-header">
                         <div class="section-title">Best Escapes</div>
@@ -52,6 +54,7 @@
                     </div>
                 </section>
 
+                <!-- script-ul il adaugam ca si ultim node pe body, nu in mijlocul paginii. de ce ai ales sa adaugi aici? -->
                 <script src="resources/main.js"></script>
 
             </header>
